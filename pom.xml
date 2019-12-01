@@ -40,9 +40,6 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-	<plugin>
-	   <artifactId>maven-war-plugin</artifactId>
-           <version>2.4</version>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
@@ -72,6 +69,10 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+	 <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>     
       </plugins>
     </pluginManagement>
   </build>
