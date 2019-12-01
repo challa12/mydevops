@@ -42,9 +42,6 @@
         </plugin>
 	 <plugin>
       <artifactId>maven-war-plugin</artifactId>
-	  <configuration>
-<archiveClasses>true</archiveClasses>
-</configuration>
         <version>3.2.3</version>
       </plugin>
         <plugin>
