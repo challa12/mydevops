@@ -36,5 +36,12 @@ stages{
             
     }
     
+     stage('Maven Deploy'){
+     steps{
+        deploy adapters: [tomcat9(credentialsId: 'b627e3b3-f23c-4d78-b6c9-af16477dabd7', path: '', url: 'http://localhost:80')], contextPath: 'challa-1.0-SNAPSHOT.war', war: '"**/*.war"'
+       }
+    }
+    
+    
 }
 }
